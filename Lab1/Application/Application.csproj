@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FigureLib\FigureLib.csproj">
+      <Project>{268e9ed4-2168-45ae-a200-bdb30a53d8ad}</Project>
+      <Name>FigureLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
