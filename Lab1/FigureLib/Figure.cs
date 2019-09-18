@@ -26,7 +26,9 @@ namespace FigureLib
       
         public bool IsExists()
         {
-            return A != B;
+            if (A != B && (int)(A / PI) == (int)(B / PI))
+                return true;
+            else return false;
         }
         /// <summary>
         /// приндлежность точки
