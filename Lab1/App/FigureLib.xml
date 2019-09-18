@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FigureLib</name>
+    </assembly>
+    <members>
+        <member name="T:FigureLib.Figure">
+            <summary>
+            Область фигуры
+            </summary>
+        </member>
+        <member name="P:FigureLib.Figure.A">
+            <summary>
+            Левая граница
+            </summary>
+        </member>
+        <member name="P:FigureLib.Figure.B">
+            <summary>
+            Правая граница
+            </summary>
+        </member>
+        <member name="M:FigureLib.Figure.IsExists">
+             <summary>
+            существование фигуры 
+             </summary>
+        </member>
+        <member name="M:FigureLib.Figure.Contains(System.Single,System.Single)">
+            <summary>
+            приндлежность точки
+            </summary>
+        </member>
+        <member name="M:FigureLib.Figure.OnBorder(System.Single,System.Single)">
+            <summary>
+            принадлежность точки границе
+            </summary>
+        </member>
+        <member name="M:FigureLib.Figure.Square">
+            <summary>
+            площадь
+            </summary>
+        </member>
+        <member name="M:FigureLib.Figure.Left">
+            <summary>
+            правая сторона
+            </summary>
+            <returns>длина</returns>
+        </member>
+        <member name="M:FigureLib.Figure.Right">
+            <summary>
+            левая сторона
+            </summary>
+            <returns>длина</returns>
+        </member>
+        <member name="M:FigureLib.Figure.Base">
+            <summary>
+            основание
+            </summary>
+            <returns>длина</returns>
+        </member>
+        <member name="M:FigureLib.Figure.Top">
+            <summary>
+            верх
+            </summary>
+            <returns>длина</returns>
+        </member>
+        <member name="M:FigureLib.Figure.Perimeter">
+            <summary>
+            периметр
+            </summary>
+            <returns>длина</returns>
+        </member>
+    </members>
+</doc>
